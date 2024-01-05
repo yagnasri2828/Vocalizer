@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.box
+{
+    width: 100%;
+    min-height: 100vh;
+    background: url("img.gif");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 80px;
+    margin-top: -200px;
+    margin-bottom: 5px;
+    color: 	#a7a7a7;
+    font-family: 'Californian FB';
+}
+textarea{
+    width: 500px;
+    height: 50px;
+    background-color: #a7a7a7;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: 'Footlight MT';
+}
+textarea::placeholder{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+}
+select{
+    width:400px;
+    height:30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #a7a7a7;
+    font-family: 'Goudy Old Style';
+    font-size: 18px;
+}
+button{
+    width: 90px;
+    height:30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #a7a7a7;
+    color:#140915;
+    font-family: 'Gill Sans MT';
+    font-size: 15px;
+}
+button img{
+    width: 12px;
+    margin-right: 8px;
+    width: 17px;
+    height: 17px;
+}
